@@ -1,0 +1,57 @@
+
+/* Style the top navigation bar */
+.topleftnav {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	float: left;
+	height: 75px;
+	width: 100%;
+	border-bottom: 1px solid #cccccc;
+}
+
+ul {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0 320px 0 320px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 75px;
+    line-height: 45px;
+}
+
+li {
+   float: right;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+	margin: 0;
+	background-image: url("../../assets/images/dust_scratches.png");
+	background-repeat: repeat; 
+}
+
+.top {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	font-weight: bold;
+	background: #4aaaa5;
+	line-height: 75px;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	/*margin-left: 320px;*/
+	left: 320px;
+	color: white;
+	float: left;
+}
